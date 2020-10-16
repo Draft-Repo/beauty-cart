@@ -22,7 +22,7 @@ Route::get('/{any?}/{ano?}', function () {
 });
 
 
-Auth::routes();
+//Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 

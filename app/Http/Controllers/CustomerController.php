@@ -10,28 +10,28 @@ class CustomerController extends Controller
     /**
      * Display a listing of the resource.
      *
+     * @param Customer $customer
+     * @param Request $request
      * @return \Illuminate\Http\Response
      */
     public function index(Customer $customer, Request $request)
     {
 
-        if($request->search){
+        if ($request->search) {
             $data = $request->search;
-            $search_result= Customer::Where('firstname', 'like', "%{$data}%")
+            $search_result = Customer::Where('firstname', 'like', "%{$data}%")
                 ->orWhere('lastname', 'like', "%{$data}%")
                 ->orWhere('mobile', 'like', "%{$data}%")
                 ->orWhere('id', 'like', "%{$data}%")
                 ->paginate($request->per_page);
 
             return response()->json([
-                'data' =>$search_result
+                'data' => $search_result
             ]);
-
         } else {
-
             return Customer::paginate($request->per_page);
-
         }
+
     }
 
     /**
@@ -47,7 +47,7 @@ class CustomerController extends Controller
     /**
      * Store a newly created resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
+     * @param \Illuminate\Http\Request $request
      * @return \Illuminate\Http\Response
      */
     public function store(Request $request)
@@ -58,7 +58,7 @@ class CustomerController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\Customer  $customer
+     * @param \App\Models\Customer $customer
      * @return \Illuminate\Http\Response
      */
     public function show(Customer $customer)
@@ -71,7 +71,7 @@ class CustomerController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\Customer  $customer
+     * @param \App\Models\Customer $customer
      * @return \Illuminate\Http\Response
      */
     public function edit(Customer $customer)
@@ -82,8 +82,8 @@ class CustomerController extends Controller
     /**
      * Update the specified resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\Customer  $customer
+     * @param \Illuminate\Http\Request $request
+     * @param \App\Models\Customer $customer
      * @return \Illuminate\Http\Response
      */
     public function update(Request $request, Customer $customer)
@@ -94,7 +94,7 @@ class CustomerController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\Customer  $customer
+     * @param \App\Models\Customer $customer
      * @return \Illuminate\Http\Response
      */
     public function destroy(Customer $customer)

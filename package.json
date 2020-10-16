@@ -42,12 +42,14 @@
         "prop-types": "^15.7.2",
         "react-app-polyfill": "^1.0.4",
         "react-chartjs-2": "^2.8.0",
+        "react-form-validator-core": "^1.0.0",
         "react-image": "^2.2.2",
         "react-js-pagination": "^3.0.2",
         "react-router-config": "^5.1.1",
         "react-router-dom": "^5.1.2",
         "react-test-renderer": "^16.12.0",
         "reactstrap": "^8.1.1",
-        "simple-line-icons": "^2.4.1"
+        "simple-line-icons": "^2.4.1",
+        "super-easy-react-forms": "^1.0.4"
     }
 }

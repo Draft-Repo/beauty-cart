@@ -2,21 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8366e8f6-ac0b-40f6-bd3c-d143542d3a72" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/beauty_cart.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/beauty_cart.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/laravel-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/laravel-plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ApiAuthController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ApiAuthController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CustomerController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CustomerController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/admin/js/49.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/admin/js/49.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/admin/js/53.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/admin/js/53.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/admin/js/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/admin/js/admin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/admin/js/54.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/admin/js/54.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/admin/js/55.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/admin/js/55.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/admin/js/56.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/admin/js/56.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/admin/js/57.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/admin/js/57.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/js/admin/views/Pages/Register.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/admin/views/Pages/Register.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
@@ -45,6 +42,9 @@
     </option>
     <expand />
     <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="beauty_cart" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -175,7 +175,7 @@
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -226,7 +226,9 @@
       <workItem from="1602688427868" duration="127000" />
       <workItem from="1602688583254" duration="971000" />
       <workItem from="1602689582173" duration="5836000" />
-      <workItem from="1602744008522" duration="8839000" />
+      <workItem from="1602744008522" duration="13767000" />
+      <workItem from="1602770786448" duration="22059000" />
+      <workItem from="1602825078816" duration="12507000" />
     </task>
     <servers />
   </component>
