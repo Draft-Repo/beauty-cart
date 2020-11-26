@@ -4,16 +4,60 @@
     <list default="true" id="8366e8f6-ac0b-40f6-bd3c-d143542d3a72" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ApiAuthController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ApiAuthController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CustomerController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CustomerController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/admin/js/11.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/admin/js/11.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/admin/js/12.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/admin/js/12.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/admin/js/17.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/admin/js/17.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/admin/js/18.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/admin/js/18.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/admin/js/19.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/admin/js/19.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/admin/js/20.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/admin/js/20.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/admin/js/21.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/admin/js/21.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/admin/js/22.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/admin/js/22.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/admin/js/23.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/admin/js/23.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/admin/js/24.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/admin/js/24.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/admin/js/25.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/admin/js/25.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/admin/js/26.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/admin/js/26.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/admin/js/27.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/admin/js/27.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/admin/js/28.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/admin/js/28.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/admin/js/29.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/admin/js/29.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/admin/js/30.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/admin/js/30.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/admin/js/31.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/admin/js/31.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/admin/js/32.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/admin/js/32.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/admin/js/33.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/admin/js/33.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/admin/js/34.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/admin/js/34.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/admin/js/35.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/admin/js/35.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/admin/js/36.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/admin/js/36.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/admin/js/37.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/admin/js/37.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/admin/js/38.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/admin/js/38.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/admin/js/39.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/admin/js/39.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/admin/js/40.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/admin/js/40.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/admin/js/41.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/admin/js/41.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/admin/js/42.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/admin/js/42.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/admin/js/43.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/admin/js/43.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/admin/js/44.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/admin/js/44.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/admin/js/45.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/admin/js/45.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/admin/js/46.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/admin/js/46.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/admin/js/47.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/admin/js/47.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/admin/js/48.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/admin/js/48.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/admin/js/49.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/admin/js/49.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/admin/js/50.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/admin/js/50.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/admin/js/51.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/admin/js/51.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/admin/js/52.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/admin/js/52.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/admin/js/53.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/admin/js/53.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/admin/js/54.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/admin/js/54.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/admin/js/55.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/admin/js/55.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/admin/js/56.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/admin/js/56.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/admin/js/57.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/admin/js/57.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/admin/js/7.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/admin/js/7.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/admin/js/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/admin/js/admin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/admin/containers/DefaultLayout/DefaultHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/admin/containers/DefaultLayout/DefaultHeader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/admin/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/admin/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/admin/nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/admin/nav.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/admin/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/admin/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/admin/views/Customers/Customers.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/admin/views/Customers/Customers.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/admin/views/Pages/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/admin/views/Pages/Login.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/js/admin/views/Pages/Register.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/admin/views/Pages/Register.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/calculator/components/Calculator/Calculator.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/calculator/components/Calculator/Calculator.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
@@ -167,7 +211,9 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1iikTMfyS6MkkTUfu8HoOTCZ1b8" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -175,7 +221,12 @@
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Laravel\beauty_cart\resources\js\admin\views" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -228,7 +279,37 @@
       <workItem from="1602689582173" duration="5836000" />
       <workItem from="1602744008522" duration="13767000" />
       <workItem from="1602770786448" duration="22059000" />
-      <workItem from="1602825078816" duration="12507000" />
+      <workItem from="1602825078816" duration="14883000" />
+      <workItem from="1602853727369" duration="879000" />
+      <workItem from="1602912619984" duration="604000" />
+      <workItem from="1602947506349" duration="3091000" />
+      <workItem from="1602952530715" duration="569000" />
+      <workItem from="1602994233671" duration="4522000" />
+      <workItem from="1603025488826" duration="1876000" />
+      <workItem from="1603031453554" duration="14055000" />
+      <workItem from="1603088976361" duration="2780000" />
+      <workItem from="1603097778896" duration="2548000" />
+      <workItem from="1603119265429" duration="9131000" />
+      <workItem from="1603162133317" duration="3682000" />
+      <workItem from="1603196476717" duration="2216000" />
+      <workItem from="1603205732895" duration="5397000" />
+      <workItem from="1603348333604" duration="981000" />
+      <workItem from="1603353866209" duration="48000" />
+      <workItem from="1603595324236" duration="1084000" />
+      <workItem from="1603611566639" duration="1744000" />
+      <workItem from="1603814377972" duration="10218000" />
+      <workItem from="1603889993605" duration="1246000" />
+      <workItem from="1604296038130" duration="5765000" />
+      <workItem from="1604499589151" duration="1212000" />
+      <workItem from="1604819237602" duration="1207000" />
+      <workItem from="1605423526926" duration="170000" />
+      <workItem from="1605430304222" duration="864000" />
+      <workItem from="1605503731710" duration="637000" />
+      <workItem from="1605617049033" duration="75000" />
+      <workItem from="1606057728431" duration="3920000" />
+      <workItem from="1606139004494" duration="1203000" />
+      <workItem from="1606291748553" duration="756000" />
+      <workItem from="1606313714972" duration="6254000" />
     </task>
     <servers />
   </component>

@@ -172,6 +172,7 @@ var DefaultHeader = /*#__PURE__*/function (_Component) {
         color: "danger",
         onClick: this.toggle
       }, "Close")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+        className: "btn btn-danger btn-sm",
         onClick: this.toggle
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
         className: "fa fa-calculator"
@@ -182,7 +183,9 @@ var DefaultHeader = /*#__PURE__*/function (_Component) {
         direction: "down"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_1__["DropdownToggle"], {
         nav: true
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", null, "Option"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+        className: "btn btn-warning btn-sm"
+      }, "Option"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
         className: "px-1"
       })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_1__["DropdownMenu"], {
         right: true,
@@ -539,22 +542,22 @@ var Calculator = /*#__PURE__*/function (_Component) {
             value: calculator.getValue()
           };
         });
-      } else if (keyPressed == 106) {
+      } else if (keyPressed === 106) {
         this.handleOnMultiply();
-      } else if (keyPressed == 107) {
+      } else if (keyPressed === 107) {
         this.handleOnAdd();
-      } else if (keyPressed == 109) {
+      } else if (keyPressed === 109) {
         this.handleOnSubtract();
-      } else if (keyPressed == 111) {
+      } else if (keyPressed === 111) {
         this.handleOnDivide();
-      } else if (keyPressed == 13) {
+      } else if (keyPressed === 13) {
         document.getElementById("gt").focus();
         this.handleOnEquals();
-      } else if (keyPressed == 8) {
+      } else if (keyPressed === 8) {
         this.handleOnDelete();
-      } else if (keyPressed == 110) {
+      } else if (keyPressed === 110) {
         this.handleOnDecimalPoint();
-      } else if (keyPressed == 46) {
+      } else if (keyPressed === 46) {
         this.handleOnClear();
       } else {
         return;

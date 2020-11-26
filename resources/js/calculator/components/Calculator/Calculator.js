@@ -224,41 +224,41 @@ export default class Calculator extends Component {
         document.execCommand("copy");
         document.getElementById("gtText").classList.add("text-success");
         document.getElementById("gtText").innerHTML="Copied to clipboard";
-        setTimeout(function(){ 
+        setTimeout(function(){
             document.getElementById("gtText").classList.remove("text-success");
             document.getElementById("gtText").innerHTML="Grand Total";
         }, 500);
       }
 
     handleOnKeyPress(e) {
-      
+
       var keyPressed = e.keyCode;
       if(keyPressed>95 && keyPressed < 106){
         calculator.inputDigit(e.key);
         this.setState(() => ({
             value: calculator.getValue()
         }));
-      } else if (keyPressed == 106) {
+      } else if (keyPressed === 106) {
         this.handleOnMultiply();
-      } else if (keyPressed == 107) {
+      } else if (keyPressed === 107) {
         this.handleOnAdd();
-      } else if (keyPressed == 109) {
+      } else if (keyPressed === 109) {
         this.handleOnSubtract();
-      } else if (keyPressed == 111) {
+      } else if (keyPressed === 111) {
         this.handleOnDivide();
-      } else if (keyPressed == 13) {
+      } else if (keyPressed === 13) {
         document.getElementById("gt").focus();
         this.handleOnEquals();
-      } else if (keyPressed == 8) {
+      } else if (keyPressed === 8) {
         this.handleOnDelete();
-      } else if (keyPressed == 110) {
+      } else if (keyPressed === 110) {
         this.handleOnDecimalPoint();
-      } else if (keyPressed == 46) {
+      } else if (keyPressed === 46) {
         this.handleOnClear();
       } else {
          return;
       }
-    
+
       }
 
     render() {
@@ -287,7 +287,7 @@ export default class Calculator extends Component {
 
                     </div>
                     {
-                        !this.state.showHistory && <Keypad 
+                        !this.state.showHistory && <Keypad
                             onDigit={this.handleOnDigit}
                             onAdd={this.handleOnAdd}
                             onSubtract={this.handleOnSubtract}

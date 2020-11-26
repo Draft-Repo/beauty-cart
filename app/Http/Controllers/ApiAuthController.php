@@ -21,29 +21,35 @@ class ApiAuthController extends Controller
 
         $user = User::where('email', $request->email)->first();
 
-        if (!$user || !Hash::check($request->password, $user->password)) {
+        if (!$user) {
             return response([
-                'message' => ['These credentials do not match in our records.']
-            ], 404);
+                'error' => ['email' => 'The email is not registered']
+            ], 200);
+        } else {
+            if (!Hash::check($request->password, $user->password)) {
+                return response([
+                    'error' => ['password' => 'Password does not match']
+                ], 200);
+            } else {
+                $token = $user->createToken('login')->plainTextToken;
+                $response = [
+                    'user' => $user,
+                    'token' => $token,
+                    'error' => null
+                ];
+                return response($response, 200);
+            }
         }
-        $token = $user->createToken('login')->plainTextToken;
-
-        $response = [
-            'user' => $user,
-            'token' => $token
-        ];
-
-        return response($response, 201);
     }
 
 
     protected function registration(Request $request)
-    {
 
+    {
         $validation = Validator::make($request->all(), [
             'name' => ['required', 'string', 'max:255'],
             'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
-            'password' => ['required', 'string'],
+            'password' => ['required', 'string', 'min:8'],
         ]);
 
         if ($validation->fails()) {
@@ -63,20 +69,8 @@ class ApiAuthController extends Controller
                 'password' => Hash::make($request['password']),
             ]);
 
-            $newUser = User::where('email', $request->email)->first();
-
-            $token = $newUser->createToken('login')->plainTextToken;
-
-            $response = [
-                'user' => $newUser,
-                'token' => $token,
-                'error' => null
-            ];
-
-            return response($response, 201);
+            return $this->login($request);
 
         }
-
     }
-
 }

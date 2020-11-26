@@ -509,7 +509,7 @@ function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.g
 
 
 var Widget03 = /*#__PURE__*/Object(react__WEBPACK_IMPORTED_MODULE_0__["lazy"])(function () {
-  return Promise.all(/*! import() */[__webpack_require__.e(3), __webpack_require__.e(52)]).then(__webpack_require__.bind(null, /*! ../../views/Widgets/Widget03 */ "./resources/js/admin/views/Widgets/Widget03.jsx"));
+  return Promise.all(/*! import() */[__webpack_require__.e(3), __webpack_require__.e(56)]).then(__webpack_require__.bind(null, /*! ../../views/Widgets/Widget03 */ "./resources/js/admin/views/Widgets/Widget03.jsx"));
 });
 var brandPrimary = Object(_coreui_coreui_dist_js_coreui_utilities__WEBPACK_IMPORTED_MODULE_4__["getStyle"])('--primary');
 var brandSuccess = Object(_coreui_coreui_dist_js_coreui_utilities__WEBPACK_IMPORTED_MODULE_4__["getStyle"])('--success');

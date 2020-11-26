@@ -1,13 +1,90 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([[53],{
 
-/***/ "./resources/js/admin/views/Pages/Register.jsx":
-/*!*****************************************************!*\
-  !*** ./resources/js/admin/views/Pages/Register.jsx ***!
-  \*****************************************************/
+/***/ "./resources/js/admin/views/Products/Products.jsx":
+/*!********************************************************!*\
+  !*** ./resources/js/admin/views/Products/Products.jsx ***!
+  \********************************************************/
 /*! exports provided: default */
-/***/ (function(module, exports) {
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nSyntaxError: D:\\Laravel\\beauty_cart\\resources\\js\\admin\\views\\Pages\\Register.jsx: Unexpected token, expected \",\" (30:55)\n\n\u001b[0m \u001b[90m 28 | \u001b[39m    \u001b[36mfunction\u001b[39m inputHandler(e) {\u001b[0m\n\u001b[0m \u001b[90m 29 | \u001b[39m        eval(\u001b[32m\"set\"\u001b[39m \u001b[33m+\u001b[39m e\u001b[33m.\u001b[39mtarget\u001b[33m.\u001b[39mname\u001b[33m.\u001b[39mcharAt(\u001b[35m0\u001b[39m)\u001b[33m.\u001b[39mtoUpperCase() \u001b[33m+\u001b[39m e\u001b[33m.\u001b[39mtarget\u001b[33m.\u001b[39mname\u001b[33m.\u001b[39mslice(\u001b[35m1\u001b[39m))(e\u001b[33m.\u001b[39mtarget\u001b[33m.\u001b[39mvalue)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 30 | \u001b[39m        \u001b[33mObject\u001b[39m\u001b[33m.\u001b[39mkeys(error)\u001b[33m.\u001b[39mevery((i) \u001b[33m=>\u001b[39m error[i] \u001b[33m===\u001b[39m \u001b[32m\"\"\u001b[39m\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    | \u001b[39m                                                       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 31 | \u001b[39m    }\u001b[0m\n\u001b[0m \u001b[90m 32 | \u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 33 | \u001b[39m\u001b[0m\n    at Object._raise (D:\\Laravel\\beauty_cart\\node_modules\\@babel\\parser\\lib\\index.js:766:17)\n    at Object.raiseWithData (D:\\Laravel\\beauty_cart\\node_modules\\@babel\\parser\\lib\\index.js:759:17)\n    at Object.raise (D:\\Laravel\\beauty_cart\\node_modules\\@babel\\parser\\lib\\index.js:753:17)\n    at Object.unexpected (D:\\Laravel\\beauty_cart\\node_modules\\@babel\\parser\\lib\\index.js:8966:16)\n    at Object.expect (D:\\Laravel\\beauty_cart\\node_modules\\@babel\\parser\\lib\\index.js:8952:28)\n    at Object.parseCallExpressionArguments (D:\\Laravel\\beauty_cart\\node_modules\\@babel\\parser\\lib\\index.js:10033:14)\n    at Object.parseCoverCallAndAsyncArrowHead (D:\\Laravel\\beauty_cart\\node_modules\\@babel\\parser\\lib\\index.js:9960:29)\n    at Object.parseSubscript (D:\\Laravel\\beauty_cart\\node_modules\\@babel\\parser\\lib\\index.js:9896:19)\n    at Object.parseSubscripts (D:\\Laravel\\beauty_cart\\node_modules\\@babel\\parser\\lib\\index.js:9867:19)\n    at Object.parseExprSubscripts (D:\\Laravel\\beauty_cart\\node_modules\\@babel\\parser\\lib\\index.js:9850:17)\n    at Object.parseUpdate (D:\\Laravel\\beauty_cart\\node_modules\\@babel\\parser\\lib\\index.js:9824:21)\n    at Object.parseMaybeUnary (D:\\Laravel\\beauty_cart\\node_modules\\@babel\\parser\\lib\\index.js:9813:17)\n    at Object.parseExprOps (D:\\Laravel\\beauty_cart\\node_modules\\@babel\\parser\\lib\\index.js:9683:23)\n    at Object.parseMaybeConditional (D:\\Laravel\\beauty_cart\\node_modules\\@babel\\parser\\lib\\index.js:9657:23)\n    at Object.parseMaybeAssign (D:\\Laravel\\beauty_cart\\node_modules\\@babel\\parser\\lib\\index.js:9620:21)\n    at Object.parseExpressionBase (D:\\Laravel\\beauty_cart\\node_modules\\@babel\\parser\\lib\\index.js:9564:23)\n    at D:\\Laravel\\beauty_cart\\node_modules\\@babel\\parser\\lib\\index.js:9558:39\n    at Object.allowInAnd (D:\\Laravel\\beauty_cart\\node_modules\\@babel\\parser\\lib\\index.js:11297:16)\n    at Object.parseExpression (D:\\Laravel\\beauty_cart\\node_modules\\@babel\\parser\\lib\\index.js:9558:17)\n    at Object.parseStatementContent (D:\\Laravel\\beauty_cart\\node_modules\\@babel\\parser\\lib\\index.js:11562:23)\n    at Object.parseStatement (D:\\Laravel\\beauty_cart\\node_modules\\@babel\\parser\\lib\\index.js:11431:17)\n    at Object.parseBlockOrModuleBlockBody (D:\\Laravel\\beauty_cart\\node_modules\\@babel\\parser\\lib\\index.js:12013:25)\n    at Object.parseBlockBody (D:\\Laravel\\beauty_cart\\node_modules\\@babel\\parser\\lib\\index.js:11999:10)\n    at Object.parseBlock (D:\\Laravel\\beauty_cart\\node_modules\\@babel\\parser\\lib\\index.js:11983:10)\n    at Object.parseFunctionBody (D:\\Laravel\\beauty_cart\\node_modules\\@babel\\parser\\lib\\index.js:10963:24)\n    at Object.parseFunctionBodyAndFinish (D:\\Laravel\\beauty_cart\\node_modules\\@babel\\parser\\lib\\index.js:10946:10)\n    at D:\\Laravel\\beauty_cart\\node_modules\\@babel\\parser\\lib\\index.js:12153:12\n    at Object.withTopicForbiddingContext (D:\\Laravel\\beauty_cart\\node_modules\\@babel\\parser\\lib\\index.js:11272:14)\n    at Object.parseFunction (D:\\Laravel\\beauty_cart\\node_modules\\@babel\\parser\\lib\\index.js:12152:10)\n    at Object.parseFunctionStatement (D:\\Laravel\\beauty_cart\\node_modules\\@babel\\parser\\lib\\index.js:11779:17)\n    at Object.parseStatementContent (D:\\Laravel\\beauty_cart\\node_modules\\@babel\\parser\\lib\\index.js:11469:21)\n    at Object.parseStatement (D:\\Laravel\\beauty_cart\\node_modules\\@babel\\parser\\lib\\index.js:11431:17)\n    at Object.parseBlockOrModuleBlockBody (D:\\Laravel\\beauty_cart\\node_modules\\@babel\\parser\\lib\\index.js:12013:25)\n    at Object.parseBlockBody (D:\\Laravel\\beauty_cart\\node_modules\\@babel\\parser\\lib\\index.js:11999:10)\n    at Object.parseBlock (D:\\Laravel\\beauty_cart\\node_modules\\@babel\\parser\\lib\\index.js:11983:10)\n    at Object.parseFunctionBody (D:\\Laravel\\beauty_cart\\node_modules\\@babel\\parser\\lib\\index.js:10963:24)");
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/index.js");
+function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+
+
+
+var Tables = /*#__PURE__*/function (_Component) {
+  _inherits(Tables, _Component);
+
+  var _super = _createSuper(Tables);
+
+  function Tables() {
+    _classCallCheck(this, Tables);
+
+    return _super.apply(this, arguments);
+  }
+
+  _createClass(Tables, [{
+    key: "render",
+    value: function render() {
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "animated fadeIn"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Row"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Col"], {
+        xs: "12"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Card"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_1__["CardBody"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_1__["CardHeader"], null, "Product list"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("table", {
+        className: "table table-bordered table-hover "
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("thead", {
+        className: "thead-dark"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("th", null, "Firstname"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("th", null, "Lastname"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("th", null, "Email"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tbody", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, "John"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, "Doe"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, "john@example.com")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, "Mary"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, "Moe"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, "mary@example.com")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, "July"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, "Dooley"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, "july@example.com")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Pagination"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_1__["PaginationItem"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_1__["PaginationLink"], {
+        previous: true,
+        tag: "button"
+      }, "Prev")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_1__["PaginationItem"], {
+        active: true
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_1__["PaginationLink"], {
+        tag: "button"
+      }, "1")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_1__["PaginationItem"], {
+        className: "page-item"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_1__["PaginationLink"], {
+        tag: "button"
+      }, "2")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_1__["PaginationItem"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_1__["PaginationLink"], {
+        tag: "button"
+      }, "3")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_1__["PaginationItem"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_1__["PaginationLink"], {
+        tag: "button"
+      }, "4")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_1__["PaginationItem"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_1__["PaginationLink"], {
+        next: true,
+        tag: "button"
+      }, "Next"))))))));
+    }
+  }]);
+
+  return Tables;
+}(react__WEBPACK_IMPORTED_MODULE_0__["Component"]);
+
+/* harmony default export */ __webpack_exports__["default"] = (Tables);
 
 /***/ })
 

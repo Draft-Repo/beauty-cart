@@ -14,6 +14,7 @@ import {
     InputGroupText,
     Row
 } from 'reactstrap';
+import Cookies from "js-cookie";
 
 
 const Register = () => {
@@ -22,9 +23,7 @@ const Register = () => {
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
     const [confirmPassword, setConfirmPassword] = useState("");
-    const [error, setError] = useState({})
-    const [update, setUpdate] = useState(false);
-
+    const [error, setError] = useState({});
 
     function inputHandler(e) {
         eval("set" + e.target.name.charAt(0).toUpperCase() + e.target.name.slice(1))(e.target.value);
@@ -33,10 +32,9 @@ const Register = () => {
         setError(newError);
     }
 
-
     function registerer(e) {
         e.preventDefault();
-        const err = {"name": "", "email": "", "password": "", "confirmPassword": ""};
+        let err = {"name": "", "email": "", "password": "", "confirmPassword": ""};
 
         // Validation rules.
         name === "" ? err.name = "This field is required" : err.name = "";
@@ -55,10 +53,13 @@ const Register = () => {
                 "email": email,
                 "password": password
             }).then((res) => {
-                console.log(res.data);
+                if (res.data.error == null) {
+                    Cookies.set('token', res.data.token);
+                } else {
+                    setError(res.data.error);
+                }
             })
         }
-
     }
 
     return (
@@ -84,6 +85,9 @@ const Register = () => {
                                             name="name"
                                             placeholder="Your Name"
                                             autoComplete="name"
+                                            onBlur={(e) => {
+                                                setName(e.target.value.trim())
+                                            }}
                                             value={name}
                                             onChange={inputHandler}
                                         />
@@ -99,6 +103,9 @@ const Register = () => {
                                             name="email"
                                             placeholder="Your E-mail"
                                             autoComplete="email"
+                                            onBlur={(e) => {
+                                                setEmail(e.target.value)
+                                            }}
                                             value={email}
                                             onChange={inputHandler}
                                         />
